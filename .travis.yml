@@ -1,0 +1,14 @@
+sudo: false
+language: scala
+scala:
+- 2.11.5
+- 2.10.4
+jdk:
+- oraclejdk8
+- oraclejdk7
+script:
+- sbt ++$TRAVIS_SCALA_VERSION --warn update compile test:compile
+- sbt ++$TRAVIS_SCALA_VERSION test
+notifications:
+  email:
+    secure: gymUCYuUDeqg2kM3Ig1k6GTvhxgpGyjbkYHuIg8Z35vH8c9YmOg2/i8cVZ4F9ymeNiPjNODr+8KXI4VusIxhR+3D8+OPm5daPLrzSmdd5JKsj5V5R7VZSn2riKS4BOzHrvpPh5hLbxVItu9OwHL2AH8KoF5UsMH/SCeXUgb9NpM=
