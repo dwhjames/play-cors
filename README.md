@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dwhjames/play-cors.svg?branch=master)](https://travis-ci.org/dwhjames/play-cors)
+
 ## Cross-Origin Resource Sharing (CORS) support for Play
 
 A configurable filter and action builder that implement Cross-Origin Resource Sharing (CORS).
