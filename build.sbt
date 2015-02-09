@@ -22,7 +22,7 @@ name := "play-cors"
 
 description := "Cross-Origin Resource Sharing (CORS) support for Play"
 
-licenses := Seq("Apache License, Version 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
+licenses := Seq("Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
 
 homepage := Some(url("https://github/dwhjames/play-cors"))
 
