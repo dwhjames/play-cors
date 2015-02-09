@@ -6,6 +6,8 @@ A configurable filter and action builder that implement Cross-Origin Resource Sh
 
 See the full [CORS specification](http://www.w3.org/TR/cors/).
 
+See the [Scaladoc documentation](https://dwhjames.github.io/play-cors/index.html).
+
 ## License
 
 Copyright © 2015 Daniel W. H. James.
